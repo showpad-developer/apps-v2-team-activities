@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "labels": {
+        "intro": {
+            "part1": "Here you can propose some activities for your next Team event.",
+            "part2": "Don't hesitate, go nuts!"
+        }
+    },
+    "contents": {
+        "logo": { "type": "asset" }
+    }
+}

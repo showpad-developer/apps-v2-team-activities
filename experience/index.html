@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/style.css" />
+        <title>Team Activities App - Experience Type</title>
+    </head>
+    <body>
+        <div class="app-wrapper">
+            <div id="logoWrapper" class="logo-wrapper"></div>
+
+            <div id="userGreetings" class="user-greetings"></div>
+            <div id="myTeam" class="my-team"></div>
+
+            <div class="intro-wrapper">
+                <div id="introPart1" class="intro"></div>
+                <div id="introPart2" class="intro"></div>
+            </div>
+
+            <div id="teamActivityCrud">
+                <div class="section-title">Propose a Team Activity</div>
+                <form>
+                    <textarea
+                        type="text"
+                        id="teamActivityDescription"
+                        name="description"
+                        placeholder="Write your team activity proposal here"
+                    ></textarea>
+
+                    <button type="button" id="addTeamActivityButton">Add a Team Activity</button>
+                    <input type="checkbox" id="teamActivityAnonymous" name="anonymous" />
+                    <label for="teamActivityAnonymous">Anonymous</label>
+                </form>
+
+                <div class="section-title">All Team Activities</div>
+                <div id="teamActivityList"></div>
+            </div>
+        </div>
+
+        <script type="module" src="./src/main.ts"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+{
+    "name": "team-activities-app",
+    "author": "Showpad",
+    "description": "",
+    "private": true,
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --force",
+        "build": "tsc && vite build admin-settings && vite build user-settings && vite build experience",
+        "prebundle": "cp manifest.json dist && cp -r images dist",
+        "bundle": "showpad apps bundle -s dist",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@showpad/cli": "latest",
+        "@types/sanitize-html": "^2.11.0",
+        "@types/uuid": "^9.0.2",
+        "@typescript-eslint/eslint-plugin": "^6.20.0",
+        "eslint": "^8.56.0",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.12"
+    },
+    "dependencies": {
+        "@showpad/experience-app-sdk": "latest",
+        "sanitize-html": "^2.12.0"
+    }
+}

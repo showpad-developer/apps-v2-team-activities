@@ -1,0 +1,102 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+input[type='text'],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+table {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #767676;
+    border-spacing: 0;
+}
+tr {
+    height: 32px;
+}
+th {
+    color: #767676;
+    font-weight: normal;
+    text-align: left;
+}
+th,
+td {
+    border-bottom: 1px solid #cccccc;
+    padding: 0 8px;
+}
+
+.app-wrapper {
+    position: relative;
+    width: 500px;
+}
+
+.user-greetings {
+    font-size: 32px;
+    line-height: 2;
+}
+
+.my-team {
+    font-style: italic;
+}
+
+.intro-wrapper {
+    padding-top: 12px;
+}
+
+.intro {
+    padding-top: 6px;
+}
+
+.logo-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo-wrapper img {
+    width: 100px;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 32px 0 12px 0;
+}
+
+#teamActivityCrud {
+    display: none;
+}

@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.showpad.com/app/manifest.v2.json",
+    "schema": {
+        "type": "app-manifest",
+        "version": 2
+    },
+    "appKey": "<your-app-key>",
+    "name": "Team Activities App",
+    "version": "0.0.1",
+    "description": {
+        "short": "The Team Activities App",
+        "full": "An App to propose and pick some team activities for team building events"
+    },
+    "icon": "images/team-logo.jpeg",
+    "images": ["images/team-logo.jpeg"],
+    "developer": {
+        "name": "<your-developer-name>",
+        "websiteUrl": "<your-website-url>"
+    },
+    "adminSettings": [
+        {
+            "extensionKey": "team-activities-admin-settings",
+            "name": "Teams",
+            "description": "Setup your teams",
+            "resources": {
+                "folder": "admin-settings"
+            }
+        }
+    ],
+    "userSettings": [
+        {
+            "extensionKey": "team-activities-user-settings",
+            "name": "My Team",
+            "description": "Assign yourself to a team",
+            "resources": {
+                "folder": "user-settings"
+            }
+        }
+    ],
+    "experienceTypes": [
+        {
+            "extensionKey": "team-activities-experience-type",
+            "name": "Team Activities",
+            "description": "Propose your team activities",
+            "resources": {
+                "folder": "experience"
+            }
+        }
+    ],
+    "sharedStores": [{ "id": "teams-store" }, { "id": "team-activities-store" }]
+}
