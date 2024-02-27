@@ -1,7 +1,7 @@
 # Team Activities App
 
 This App enables teammates to propose some activities for the next team event as described in this tutorial:
-[Team Activities App](https://docs.api.showpad.com/docs/appsv2/tutorials/team-activities-app)
+[Team Activities App](https://docs.api.showpad.com/docs/appsv2/tutorials/advanced-team-activities)
 
 It contains 3 extensions:
 
