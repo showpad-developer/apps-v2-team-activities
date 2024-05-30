@@ -15,11 +15,11 @@ It also uses 2 shared AppsDB stores to store the teams created by the admins and
 
 Install the dependencies: `npm i`
 
-Each extension can be ran individually:
+Each extension can be ran individually. In order to test your local changes please refer to these articles:
 
--   `npm run dev admin-settings`
--   `npm run dev user-settings`
--   `npm run dev experience`
+-   [Test your Admin Settings extension](https://docs.api.showpad.com/docs/appsv2/tutorials/advanced-team-activities#test-extension)
+-   [Test your User Settings extension](https://docs.api.showpad.com/docs/appsv2/tutorials/advanced-team-activities#test-extension-1)
+-   [Test your Experience Type extension](https://docs.api.showpad.com/docs/appsv2/tutorials/advanced-team-activities#test-extension-2)
 
 ## Build & Bundle
 
