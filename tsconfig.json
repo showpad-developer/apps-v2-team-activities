@@ -19,5 +19,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["team-activities-experience", "admin-settings", "user-settings"]
+  "include": ["**/*.ts"]
 }
